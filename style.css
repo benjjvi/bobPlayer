@@ -38,7 +38,7 @@ body {
 /* This css is only applied when fullscreen is active. */
 .player:fullscreen {
   max-width: none;
-  width: 100%;
+  height: 100%;
 }
 
 .player:-webkit-full-screen {
