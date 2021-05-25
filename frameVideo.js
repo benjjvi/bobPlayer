@@ -11,7 +11,9 @@ else {
 }
 
 console.log("finding episode and framing it")
-
 var link = items[episode]
+console.log(link)
 
-alert(link)
+var videoreplaced = "<video src='" + link + "'></video>"
+
+document.getElementById("replacevideo").outerHTML = videoreplaced;
