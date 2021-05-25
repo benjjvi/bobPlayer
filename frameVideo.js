@@ -1,5 +1,3 @@
-var videoByEpisode;
-
 const queryString = window.location.search;
 
 const urlParams = new URLSearchParams(queryString);
@@ -9,5 +7,6 @@ if (urlParams.has("episode")) {
 }
 else {
     console.log("replace window")
-    //window.location.replace("https://bob.bildsben.tech")
+    window.location.replace("https://bob.bildsben.tech")
 }
+
