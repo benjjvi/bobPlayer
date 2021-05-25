@@ -14,12 +14,6 @@ console.log("finding episode and framing it")
 var link = items[episode]
 console.log(link)
 
-var videoreplaced = "<video id='buffer' src='" + link + "'></video>"
+var videoreplaced = "<video src='" + link + "'></video>"
 
 document.getElementById("replacevideo").outerHTML = videoreplaced;
-
-//buffer for slow servers
-
-video = document.getElementById("buffer");
-video.load();
-video.play();
