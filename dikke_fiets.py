@@ -25,7 +25,7 @@ for i in range(1,32):
 
         print(x)
 
-        fat_bikes[str(ep_num)] = x
+        fat_bikes[ep_num] = x
         ep_num += 1
 
 open("items.dict.json", "w").write(str(fat_bikes))
