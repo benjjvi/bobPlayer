@@ -6,8 +6,7 @@ if (urlParams.has("episode")) {
     var episode = urlParams.get('episode')
 }
 else {
-    console.log("replace window")
-    window.location.replace("https://bob.bildsben.tech")
+    var episode = 1
 }
 
 console.log("finding episode and framing it")
@@ -18,7 +17,13 @@ var videoreplaced = '<video class="player__video viewer" height=100% src="' + li
 
 document.getElementById("replacevideo").outerHTML = videoreplaced;
 
-alert(link)
+
+/// Code to add next video button.
+var nextEpisode = parseInt(episode) + 1
+
+var buttonreplaced = '<button><a href="./testing?episode=' +nextEpisode+'">Next Video</a></button>' 
+
+document.getElementById("next__video").outerHTML = buttonreplaced;
 
 /////
 ///// P L A Y E R   C O D E
