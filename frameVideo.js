@@ -18,6 +18,8 @@ var videoreplaced = '<video class="player__video viewer" height=100% src="' + li
 
 document.getElementById("replacevideo").outerHTML = videoreplaced;
 
+alert(link)
+
 /////
 ///// P L A Y E R   C O D E
 /////
