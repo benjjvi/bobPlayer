@@ -16,13 +16,29 @@ html {
 body {
   margin: 0;
   padding: 0;
-  display:flex;
   background:#7A419B;
   min-height:100vh;
   background: linear-gradient(135deg, #9796f1 0%,#b9b9eb 22%, #e6aeae 78%,#ee6a6a 100%);
   background-size:cover;
   align-items: center;
   justify-content: center;
+}
+
+.flex {
+    display:flex;
+}
+
+.noflex {
+    display:block;
+}
+
+.transparent {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
 }
 
 .player {
