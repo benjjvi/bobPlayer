@@ -1,27 +1,3 @@
-const queryString = window.location.search;
-
-const urlParams = new URLSearchParams(queryString);
-
-if (urlParams.has("episode")) {
-    var episode = urlParams.get('episode')
-}
-else {
-    console.log("replace window")
-    window.location.replace("https://bob.bildsben.tech")
-}
-
-console.log("finding episode and framing it")
-var link = items[episode]
-console.log(link)
-
-var videoreplaced = '<video class="player__video viewer" height=100% src="' + link + '"></video>'
-
-document.getElementById("replacevideo").outerHTML = videoreplaced;
-
-/////
-///// P L A Y E R   C O D E
-/////
-
 // get elements
 const player = document.querySelector('.player');
 const video = player.querySelector('.viewer');
