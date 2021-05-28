@@ -737,13 +737,6 @@ $.fn.siPlayer = function( autoplay ) {
                 
             }
             
-            if( state < 1 && loop > 30 ) {
-                
-                clearInterval( ready );
-                funcs.loadFail();
-                
-            }
-            
             
         }, 500 );
         
