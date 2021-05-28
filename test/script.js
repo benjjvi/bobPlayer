@@ -556,7 +556,7 @@ $.fn.siPlayer = function( autoplay ) {
                     t = setTimeout(function () {
                         $player.removeClass('active');
                         $el.controls.removeClass('active');
-                    }, 2000);
+                    }, 6000);
                     
                 },
                 
