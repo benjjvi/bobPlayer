@@ -22,6 +22,6 @@ document.getElementById("replacevideo").outerHTML = videoreplaced;
 
 var nextEpisode = parseInt(episode) + 1
 
-var buttonreplaced = '<button class="transparent"><a href="./testing?episode=' +nextEpisode+'">Next Video</a></button>' 
+var buttonreplaced = '<button><a href="./test/?episode=' +nextEpisode+'">Next Video</a></button>' 
 
 document.getElementById("next__video").outerHTML = buttonreplaced;
