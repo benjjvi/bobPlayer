@@ -249,6 +249,9 @@ $.fn.siPlayer = function( autoplay ) {
             },
             
             toggleMute: function( on ) {
+    
+                
+                
                 
                 if( on !== undefined ) {
                     if( on ) {
@@ -427,7 +430,7 @@ $.fn.siPlayer = function( autoplay ) {
                 setTimeout(function() {
                   $el.spinner.remove();
                   $el.loading.remove();
-                },1000);
+                },60000);
                 
             }
             
