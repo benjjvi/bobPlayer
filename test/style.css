@@ -12,6 +12,31 @@
     src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');
 }
 
+[noborder] {
+    border: none;
+    outline: 0px solid transparent;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.btn-rounded-dark {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    transition: .5s ease all;
+}
+
+.btn-rounded-dark:hover {
+    color: #3498db;
+    background: #fff;
+    text-decoration: none;
+}
+
 article.video {
     position: relative;
     display: block;
@@ -320,7 +345,7 @@ article.video .loading {
     height: 100px;
     margin-top: 20px;
     color: white;
-    font-size: 0.8em;
+    font-size: 1.4em;
     opacity: 0.1;
     transition: all 0.4s ease;
 }
@@ -439,7 +464,7 @@ html {
 }
 
 .demo-container {
-    width: 50%;
+    width: 85%;
     margin: auto;
     background: #eee;
     padding: 20px;

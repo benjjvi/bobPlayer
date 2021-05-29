@@ -1,4 +1,5 @@
 #file name is a joke with dutch friend luuk. dikke fiets = fat bikes
+# the above comment doesnt make sense unless you knew that the file was previously called dikke_fiets.py
 
 import glob
 
