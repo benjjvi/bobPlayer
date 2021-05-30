@@ -19,11 +19,18 @@
 }
 
 a {
-    color: lightblue;
+    color: white;
+    background-color: lightblue;
     font-size: 21px;
     text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px 10px 5px 10px;
+    border: 3px solid transparent;
+    border-radius: 25px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: inline-block;
 }
 
 .btn-rounded-dark {
@@ -44,7 +51,7 @@ h1 {
     font-size: 50px;
     padding-left: 10px;
     padding-right: 10px;
-    color: #ccc;
+    color: #ffffff;
 }
 
 h2 {
