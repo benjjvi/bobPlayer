@@ -23,6 +23,27 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #112;
+}
+
+p {
+    color: black;
+    background-color: #ccc;
+    font-size: 21px;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    border: 3px solid transparent;
+    border-radius: 25px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: inline-block;
+}
 .btn-rounded-dark {
     display: inline-block;
     padding: 10px 15px;

@@ -8,13 +8,9 @@ if (urlParams.has("episode")) {
     var episode = 1
 }
 
-console.log("finding episode and framing it")
 var link = items[episode]
-console.log(link)
 
 var videoreplaced = '<source src="' + link + '" type="video/ogg">'
-
-console.log(document.getElementById("replacevideo").outerHTML)
 
 document.getElementById("replacevideo").outerHTML = videoreplaced;
 
