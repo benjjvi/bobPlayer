@@ -4,8 +4,7 @@ const urlParams = new URLSearchParams(queryString);
 
 if (urlParams.has("episode")) {
     var episode = urlParams.get('episode')
-}
-else {
+} else {
     var episode = 1
 }
 
@@ -22,6 +21,6 @@ document.getElementById("replacevideo").outerHTML = videoreplaced;
 
 var nextEpisode = parseInt(episode) + 1
 
-var buttonreplaced = '<a class="btn-rounded-dark noborder" href="./test/?episode=' +nextEpisode+'">Next Video</a>'
+var buttonreplaced = '<a class="btn-rounded-dark noborder" href="./test/?episode=' + nextEpisode + '">Next Video</a>'
 
 document.getElementById("next__video").outerHTML = buttonreplaced;
