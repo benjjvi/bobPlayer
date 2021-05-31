@@ -10,7 +10,7 @@ ep_num = 1
 
 
 for i in range(1,32):
-    a = glob.glob(r"A:\BobRoss\S" + str(i) + r"\*.ogv")
+    a = glob.glob(r"A:\BobRoss\S" + str(i) + r"\*.mp4")
 
     for x in a:
         x = x[11:]
@@ -23,7 +23,7 @@ for i in range(1,32):
                 item = "/"
             xcomp = xcomp + str(item)
 
-        x = "http://bildsben.hopto.org:8080/" + xcomp
+        x = "http://bildsben.hopto.org:8010/" + xcomp
 
         print(x)
 
