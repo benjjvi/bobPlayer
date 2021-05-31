@@ -401,5 +401,7 @@ items = {
     400: 'http://bildsben.hopto.org:8080/S31/Bob Ross - The Joy of Painting - S31E10 - Balmy Beach.ogv',
     401: 'http://bildsben.hopto.org:8080/S31/Bob Ross - The Joy of Painting - S31E11 - Lake at the Ridge.ogv',
     402: 'http://bildsben.hopto.org:8080/S31/Bob Ross - The Joy of Painting - S31E12 - In the Midst of Winter.ogv',
-    403: 'http://bildsben.hopto.org:8080/S31/Bob Ross - The Joy of Painting - S31E13 - Wilderness Day.ogv'
+    403: 'http://bildsben.hopto.org:8080/S31/Bob Ross - The Joy of Painting - S31E13 - Wilderness Day.ogv',
+    404: 'http://bildsben.hopto.org:8080/Specials/1Hr%20-%20Beginners%20Workshop-Experimental.mp4',
+    405: 'http://bildsben.hopto.org:8080/Specials/3Hr%20-%20Instructional%20%20Workshop-Experimental.mp4'
 };

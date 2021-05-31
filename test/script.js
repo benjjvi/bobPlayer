@@ -61,7 +61,6 @@ $.fn.siPlayer = function (autoplay) {
             fullscreen: $('<i/>').addClass('fullscreen').html("&#61541"),
 
             seek: $('<div/>').addClass('seek'),
-            buffer: $('<div/>').addClass('buffer'),
             watched: $('<div/>').addClass('watched'),
             handle: $('<i/>').addClass('handle'),
 
