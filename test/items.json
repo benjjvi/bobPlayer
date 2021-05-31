@@ -1,5 +1,5 @@
 
-items%20=%20{
+items = {
     1: 'https://bildsben.hopto.org:8010/S1/Bob%20Ross%20-%20The%20Joy%20of%20Painting%20-%20S01E01%20-%20A%20Walk%20in%20the%20Woods.mp4',
     2: 'https://bildsben.hopto.org:8010/S1/Bob%20Ross%20-%20The%20Joy%20of%20Painting%20-%20S01E02%20-%20Mt%20McKinley.mp4',
     3: 'https://bildsben.hopto.org:8010/S1/Bob%20Ross%20-%20The%20Joy%20of%20Painting%20-%20S01E03%20-%20Ebony%20Sunset.mp4',
@@ -404,5 +404,5 @@ items%20=%20{
     402: 'https://bildsben.hopto.org:8010/S31/Bob%20Ross%20-%20The%20Joy%20of%20Painting%20-%20S31E12%20-%20In%20the%20Midst%20of%20Winter.mp4',
     403: 'https://bildsben.hopto.org:8010/S31/Bob%20Ross%20-%20The%20Joy%20of%20Painting%20-%20S31E13%20-%20Wilderness%20Day.mp4',
     404: 'https://bildsben.hopto.org:8010/Specials/1Hr%20-%20Beginners%20Workshop.mp4',
-    405: 'https://bildsben.hopto.org:8010/Specials/3Hr%20-%20Instructional  Workshop.mp4'
+    405: 'https://bildsben.hopto.org:8010/Specials/3Hr%20-%20Instructional%20%20Workshop.mp4'
 };
