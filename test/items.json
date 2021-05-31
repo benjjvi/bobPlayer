@@ -335,7 +335,7 @@ items = {
     333: 'https://bildsben.hopto.org:8010/S26/Bob Ross - The Joy of Painting - S26E08 - Early Autumn.mp4',
     334: 'https://bildsben.hopto.org:8010/S26/Bob Ross - The Joy of Painting - S26E09 - Tranquil Wooded Stream.mp4',
     335: 'https://bildsben.hopto.org:8010/S26/Bob Ross - The Joy of Painting - S26E10 - Purple Mountain Range.mp4',
-    336: 'https://bildsben.hopto.org:8010/S26/Bob Ross - The Joy of Painting - S26E11 - Storm´s A Comin.mp4',
+    336: 'https://bildsben.hopto.org:8010/S26/Bob Ross - The Joy of Painting - S26E11 - StormÂ´s A Comin.mp4',
     337: 'https://bildsben.hopto.org:8010/S26/Bob Ross - The Joy of Painting - S26E12 - Sunset Aglow.mp4',
     338: 'https://bildsben.hopto.org:8010/S26/Bob Ross - The Joy of Painting - S26E13 - Evening at the Falls.mp4',
     339: 'https://bildsben.hopto.org:8010/S27/Bob Ross - The Joy of Painting - S27E01 - Twilight Beauty.mp4',
@@ -388,7 +388,7 @@ items = {
     386: 'https://bildsben.hopto.org:8010/S30/Bob Ross - The Joy Of Painting - S30E09 - Mountains of Grace.mp4',
     387: 'https://bildsben.hopto.org:8010/S30/Bob Ross - The Joy Of Painting - S30E10 - Seaside Harmony.mp4',
     388: 'https://bildsben.hopto.org:8010/S30/Bob Ross - The Joy Of Painting - S30E11 - A cold Spring Day.mp4',
-    389: 'https://bildsben.hopto.org:8010/S30/Bob Ross - The Joy Of Painting - S30E12 - Evening´s Glow.mp4',
+    389: 'https://bildsben.hopto.org:8010/S30/Bob Ross - The Joy Of Painting - S30E12 - EveningÂ´s Glow.mp4',
     390: 'https://bildsben.hopto.org:8010/S30/Bob Ross - The Joy Of Painting - S30E13 - Blue Ridge Falls.mp4',
     391: 'https://bildsben.hopto.org:8010/S31/Bob Ross - The Joy of Painting - S31E01 - Reflections of Calm.mp4',
     392: 'https://bildsben.hopto.org:8010/S31/Bob Ross - The Joy of Painting - S31E02 - Before the Snowfall.mp4',
@@ -403,6 +403,6 @@ items = {
     401: 'https://bildsben.hopto.org:8010/S31/Bob Ross - The Joy of Painting - S31E11 - Lake at the Ridge.mp4',
     402: 'https://bildsben.hopto.org:8010/S31/Bob Ross - The Joy of Painting - S31E12 - In the Midst of Winter.mp4',
     403: 'https://bildsben.hopto.org:8010/S31/Bob Ross - The Joy of Painting - S31E13 - Wilderness Day.mp4',
-    404: 'https://bildsben.hopto.org:8010/Specials/1Hr%20-%20Beginners%20Workshop.mp4',
-    405: 'https://bildsben.hopto.org:8010/Specials/3Hr%20-%20Instructional%20%20Workshop.mp4'
+    404: 'https://bildsben.hopto.org:8010/Specials/1Hr - Beginners Workshop.mp4',
+    405: 'https://bildsben.hopto.org:8010/Specials/3Hr - Instructional  Workshop.mp4'
 };
