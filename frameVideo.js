@@ -13,7 +13,7 @@ if (urlParams.has("episode")) {
 
 var link = items[episode]
 
-var videoreplaced = '<source src="' + link + '" type="video/mp4">'
+var videoreplaced = '<video height=100% width=100% src="' + link + '" controls>'
 
 document.getElementById("replacevideo").outerHTML = videoreplaced;
 
