@@ -23,10 +23,10 @@ function login() {
         }
     }
 
-    if (logged) {
+    if (logged == true) {
         window.location.replace("./release/")
     }
-    else {
+    if (logged == false) {
         window.location.replace("./")
     }
 }
