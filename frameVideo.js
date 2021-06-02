@@ -7,6 +7,9 @@ if (urlParams.has("episode")) {
     if (episode > 405) {
         window.location.replace("./player?episode=1");
     }
+    if (episode <1) {
+        window.location.replace("./player?episode=1")
+    }
 } else {
     var episode = 1
 }
