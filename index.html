@@ -59,9 +59,20 @@
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        document.getElementById("time").innerHTML = "Launching In - " + days + "d " + hours + "h " +
-            minutes + "m " + seconds + "s (7pm BST)";
-
+        if (hours !== 0){
+            document.getElementById("time").innerHTML = "Launching In - " + hours + "h " +
+                                                        minutes + "m " + seconds + "s (7pm BST)";
+        }
+        
+        else if (hours == 0 && minutes == 0){
+            document.getElementById("time").innerHTML = "Launching In - " + seconds + "s (7pm BST)";
+        }
+        
+        else if (hours == 0 && minutes !== 0){
+            document.getElementById("time").innerHTML = "Launching In - " hours + "h "+ seconds + "s (7pm BST)";
+        }
+        
+        
         if (distance < 0) {
             clearInterval(x);
             document.getElementById("time").innerHTML = "Launching Site!";
