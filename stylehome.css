@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');
+}
+
+[noborder] {
+    border: none;
+    outline: 0px solid transparent;
+    text-decoration: none;
+}
+
+a {
+    color: ghostwhite;
+    background-color: cadetblue;
+    font-size: 21px;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    border: 3px solid transparent;
+    border-radius: 25px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: inline-block;
+}
+
+h4 {
+    color: ghostwhite;
+    background-color: red;
+    font-size: 21px;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    border: 3px solid transparent;
+    border-radius: 25px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: inline-block;
+}
+
+.btn-rounded-dark {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    transition: .5s ease all;
+}
+
+.btn-rounded-dark:hover {
+    color: #3498db;
+    background: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ccc;
+}
+
+
+h3 {
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ccc;
+}
+
+h5 {
+    font-size: 21px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ccc;
+}
+
+@media screen and (max-width: 800px) {
+    article.video {
+        font-size: 12px;
+    }
+}
+
+body,
+html {
+    background: #222;
+    color: #222;
+}
+
+.container {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    background: #333;
+    padding: 20px;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.2;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('https://netdna.bootstrapcdn.com/font-awesome/3.1.1/font/fontawesome-webfont.eot?v=3.1.0');
+    src: url('https://netdna.bootstrapcdn.com/font-awesome/3.1.1/font/fontawesome-webfont.eot?#iefix&v=3.1.0') format('embedded-opentype'), url('https://netdna.bootstrapcdn.com/font-awesome/3.1.1/font/fontawesome-webfont.woff?v=3.1.0') format('woff'), url('https://netdna.bootstrapcdn.com/font-awesome/3.1.1/font/fontawesome-webfont.ttf?v=3.1.0') format('truetype'), url('https://netdna.bootstrapcdn.com/font-awesome/3.1.1/font/fontawesome-webfont.svg#fontawesomeregular?v=3.1.0') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(360deg);
+    }
+
+    14% {
+        transform: rotate(470deg);
+    }
+
+    18% {
+        transform: rotate(490deg);
+    }
+
+    20% {
+        transform: rotate(520deg);
+    }
+
+    22% {
+        transform: rotate(540deg);
+    }
+
+    26% {
+        transform: rotate(940deg);
+    }
+
+    30% {
+        transform: rotate(1080deg);
+    }
+
+    40% {
+        transform: rotate(1340deg);
+    }
+
+    45% {
+        transform: rotate(1440deg);
+    }
+
+    55% {
+        transform: rotate(1500deg);
+    }
+
+    56% {
+        transform: rotate(1500deg);
+    }
+
+    86% {
+        transform: rotate(3220deg);
+    }
+
+    100% {
+        transform: rotate(3600deg);
+    }
+}
+
+@keyframes spin2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(3600deg);
+    }
+}
