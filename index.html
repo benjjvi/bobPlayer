@@ -30,18 +30,27 @@
         request.open("POST", "https://discord.com/api/webhooks/850753604704796703/smYAdZV9KMNaUwkGva4OiPpVgwVizUlpm8vyqhhzXRRCHOnTbzS47IY88yzUCrdbug1d");
         request.setRequestHeader('Content-type', 'application/json');
         
-        if (ref == "ben") {
+        else if (ref == "ben") {
             var params = {username: "bobPlayer Refer Message Hook", avatar_url: "", content: "Referred to the website by Ben V (a.k.a bildsben)."}
         }
         
-        if (ref == "countdown") {
+        else if (ref == "countdown") {
             var params = {username: "bobPlayer Refer Message Hook", avatar_url: "", content: "Referred to the website by the countdown clock."}
         }
         
-        if (ref == "index") {
+        else if (ref == "index") {
             var params = {username: "bobPlayer Refer Message Hook", avatar_url: "", content: "No known referrer- sent to refer site directly from bobPlayer."}
         }
-         request.send(JSON.stringify(params));
+        
+        else if (ref == "nathan") {
+            var params = {username: "bobPlayer Refer Message Hook", avatar_url: "", content: "Referred to the website by Nathan."}
+        }
+        
+        else {
+            var params = {username: "bobPlayer Refer Message Hook", avatar_url: "", content: "Unknown referrer."}
+        }
+        
+        request.send(JSON.stringify(params));
     </script>
    
     <div class="container">
