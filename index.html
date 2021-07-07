@@ -30,7 +30,7 @@
         request.open("POST", atob("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvODYyMzc2NTk0OTAyNzQ1MDk4L2J0bWNsSExYM3EwYTAyZ3ZSVW8wR3oySTE5TVR3clBsbXpOY1Z1N0o4MzIyRmJXQjZ1cEZWLXZNbURRSzNZSGR3TEp6"));
         request.setRequestHeader('Content-type', 'application/json');
         
-        else if (ref == "ben") {
+        if (ref == "ben") {
             var params = {username: "bobPlayer Refer Message Hook", avatar_url: "", content: "Referred to the website by Ben V (a.k.a bildsben)."}
         }
         
@@ -44,6 +44,10 @@
         
         else if (ref == "nathan") {
             var params = {username: "bobPlayer Refer Message Hook", avatar_url: "", content: "Referred to the website by Nathan."}
+        }
+        
+        else {
+            var params = {username: "bobPlayer Refer Message Hook", avatar_url: "", content: "Unknown referrer."}
         }
         
         request.send(JSON.stringify(params));
