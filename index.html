@@ -13,46 +13,6 @@
 </head>
 
 <body>
-    <script>
-        
-        const queryString = window.location.search;
-
-        const urlParams = new URLSearchParams(queryString);
-
-        if (urlParams.has("ref")) {
-            var ref = urlParams.get('ref')
-        } else {
-            var ref = "index"
-        }
-        
-        
-        var request = new XMLHttpRequest();
-        request.open("POST", atob("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvODYyMzc2NTk0OTAyNzQ1MDk4L2J0bWNsSExYM3EwYTAyZ3ZSVW8wR3oySTE5TVR3clBsbXpOY1Z1N0o4MzIyRmJXQjZ1cEZWLXZNbURRSzNZSGR3TEp6"));
-        request.setRequestHeader('Content-type', 'application/json');
-        
-        if (ref == "ben") {
-            var params = {username: "bobPlayer Refer Message Hook", avatar_url: "", content: "Referred to the website by Ben V (a.k.a bildsben)."}
-        }
-        
-        else if (ref == "countdown") {
-            var params = {username: "bobPlayer Refer Message Hook", avatar_url: "", content: "Referred to the website by the countdown clock."}
-        }
-        
-        else if (ref == "index") {
-            var params = {username: "bobPlayer Refer Message Hook", avatar_url: "", content: "No known referrer- sent to refer site directly from bobPlayer."}
-        }
-        
-        else if (ref == "nathan") {
-            var params = {username: "bobPlayer Refer Message Hook", avatar_url: "", content: "Referred to the website by Nathan."}
-        }
-        
-        else {
-            var params = {username: "bobPlayer Refer Message Hook", avatar_url: "", content: "Unknown referrer."}
-        }
-        
-        request.send(JSON.stringify(params));
-    </script>
-   
     <div class="container">
         <h1>bobPlayer</h1>
         <h2>Presented to you by bildsben</h2>
